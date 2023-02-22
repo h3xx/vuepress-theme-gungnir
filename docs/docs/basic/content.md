@@ -145,6 +145,8 @@ You can choose to hide the site domain:
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
@@ -165,6 +167,8 @@ or disable this container:
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({

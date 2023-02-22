@@ -29,6 +29,8 @@ Different from the default theme, Gungnir theme displays `themeConfig.navbarTitl
 
 ```js{14}
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   /*
@@ -50,6 +52,8 @@ It can also be used in the [`locales`](https://v2.vuepress.vuejs.org/reference/d
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
@@ -70,6 +74,8 @@ module.exports = {
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
@@ -109,6 +115,8 @@ module.exports = {
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
@@ -139,6 +147,8 @@ Check the [home page](/) of this site to see the effect. Click the left and righ
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
@@ -182,6 +192,8 @@ Support HTML. For example, the footer of this site is:
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
@@ -202,6 +214,8 @@ Enable or disable **post** catalog for all posts. Can be rewritten in each post'
 
 ```js
 // .vuepress/config.js
+const { gungnirTheme } = require("vuepress-theme-gungnir");
+// ...
 
 module.exports = {
   theme: gungnirTheme({
